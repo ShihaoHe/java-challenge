@@ -47,6 +47,11 @@ Application (with the embedded H2 database) is ready to be used ! You can access
 
 Please let us know more about your Java experience in a few sentences. For example:
 
-- I have 3 years experience in Java and I started to use Spring Boot from last year
-- I'm a beginner and just recently learned Spring Boot
-- I know Spring Boot very well and have been using it for many years
+- I started to use Java when I was still in University, which is five years ago, and about one year after that I started to use Spring
+
+#### What I have done
+- added Integration test for cache and DB, and e2e test for the RESTful API
+- secured the endpoint based on OAuth2 support of Spring
+- added documentation to every class
+- added global exception handler
+- fixed two bugs, one is that update employee without setting id, that would be save not update, another one is that there wasn't @RequestBody for save-employee-endpoint, spring wouldn't construct that parameter
