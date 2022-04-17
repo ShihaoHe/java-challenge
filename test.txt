@@ -1,3 +1,7 @@
 test
 new test
+<<<<<<< HEAD
 from test 1 
+=======
+from test 2
+>>>>>>> develop
