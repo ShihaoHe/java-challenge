@@ -54,4 +54,4 @@ Please let us know more about your Java experience in a few sentences. For examp
 - secured the endpoint based on OAuth2 support of Spring
 - added documentation to every class
 - added global exception handler
-- fixed three bugs, one is that update employee without setting id, that would be save not update, another one is that there wasn't @RequestBody for save-employee-endpoint, spring wouldn't construct that parameter, last one is that CRUD didn't use transaction
+- fixed three bugs, one is that update employee without setting id, that would be save not update, another one is that there wasn't @RequestBody for save-employee-endpoint, spring wouldn't construct that parameter, last one is that CRUD didn't use transactionfrom dev branch
